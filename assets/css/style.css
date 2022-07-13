@@ -716,13 +716,13 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #fff;
+  color: #5846f9;
   border: 2px solid #5846f9;
-  background: #5846f9;
+  background: #fff;
 }
 .services .btn-nuq:hover {
-  background: #fff;
-  color: #5846f9;
+  background: #5846f9;
+  color: #fff;
 }
 /*--------------------------------------------------------------
 # Features
@@ -758,13 +758,13 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #fff;
+  color: #5846f9;
   border: 2px solid #5846f9;
-  background: #5846f9;
+  background: #fff;
 }
 .features .btn-nuq:hover {
-  background: #fff;
-  color: #5846f9;
+  background: #5846f9;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -785,8 +785,8 @@ section {
   padding: 20px 15px;
   font-size: 16px;
   font-weight: 600;
-  color: #1a0afc;
-  background: #f8f8f8;
+  color: #fff;
+  background: #47aeff;
 }
 .pricing h4 {
   font-size: 30px;
@@ -828,7 +828,7 @@ section {
 .pricing .btn-wrap {
   margin: 20px -20px -20px -20px;
   padding: 20px 15px;
-  background: #f8f8f8;
+  background: #fff;
   text-align: center;
 }
 .pricing .btn-buy {
@@ -841,9 +841,27 @@ section {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  color: #fff;
+  color: #47aeff;
+  border: 2px solid #47aeff;
+  background: #fff;
+}
+.pricing .btn-buy-msk {
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 4px;
+  transition: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  color: #3621f3;
   border: 2px solid #5846f9;
+  background: #fff;
+}
+.pricing .btn-buy-msk:hover {
   background: #3621f3;
+  color: #fff;
 }
 .pricing .btn-nuq {
   font-family: "Poppins", sans-serif;
@@ -855,18 +873,18 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #fff;
+  color: #5846f9;
   border: 2px solid #5846f9;
-  background: #3621f3;
+  background: #fff;
 }
 .pricing .btn-nuq:hover {
-  background: #fff;
-  color: #5846f9;
+  background: #5846f9;
+  color: #fff;
 }
 
 .pricing .btn-buy:hover {
-  background:  #fff;
-  color: #3621f3;
+  background:  #47aeff;
+  color: #fff;
 }
 .pricing .featured h3 {
   color: #fff;
@@ -1054,7 +1072,24 @@ section {
     padding: 0;
   }
 }
-
+.faq .btn-nuq {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  border: 2px solid #fff;
+  margin: 20px -20px -20px -20px;
+}
+.faq .btn-nuq:hover {
+  background: #fff;
+  color: #5846f9;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
